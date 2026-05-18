@@ -1,6 +1,3 @@
-# Phonepe-Pulse-Analytics-Streamlit-Dashboard
-An interactive Streamlit dashboard for exploring nationwide PhonePe Pulse data with automated JSON ETL pipelines, advanced geo-spatial EDA, and predictive Polynomial Regression forecasting models.
-
 # 📊 PhonePe Pulse Data Visualization & Forecasting Platform
 
 An enterprise-grade data platform that automates the extraction, processing, analysis, and forecasting of nationwide transaction and user footprint metrics from the PhonePe Pulse ecosystem. This project features a full ETL pipeline, rigorous exploratory data analysis, multi-model machine learning comparison, and a live interactive Streamlit dashboard.
