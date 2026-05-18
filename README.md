@@ -16,24 +16,3 @@ An enterprise-grade data platform that automates the extraction, processing, ana
 
 ---
 
-## 📂 Project Architecture & Repository Structure
-
-```text
-PhonePe-Pulse-Analytics/
-│
-├── .gitignore               # Excludes python bytecodes, local check-pointing, and environment dumps
-├── README.md                # Comprehensive portfolio landing documentation
-├── requirements.txt         # Production-ready package dependency lockfile
-├── apps.py                  # Streamlit dashboard application source code
-├── phonepe_poly_model.pkl   # Serialized Polynomial Regression Pipeline artifact
-├── phonepe_scaler.pkl       # Serialized StandardScaler parameter configurations
-│
-├── Data/                    # Standardized structured relational data matrices (CSV format)
-│   ├── agg_transaction.csv
-│   ├── agg_user.csv
-│   ├── agg_insurance.csv
-│   ├── map_transaction.csv
-│   └── map_user.csv
-│
-└── Notebooks/               # Development environments for modeling and analysis
-    └── analysis.ipynb       # Main notebook housing ETL logic, hypothesis testing, and ML optimization
